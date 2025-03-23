@@ -35,6 +35,7 @@
 
 html {
     font-size: 20px;
+    overflow-x: hidden;
 }
 
 body {
@@ -283,7 +284,7 @@ label {
     font-weight: bold;
 }
 
-.intro {
+.intro {                                        /* larger text */
     display: block;
     transform: scale(1.5);
     max-width: 80vw;
@@ -295,7 +296,7 @@ label {
     box-sizing: border-box;
 }
 
-.smol {
+.smol {                                         /* smaller text */
     display: block;
     transform: scale(0.5);
     max-width: 80vw;
@@ -307,7 +308,7 @@ label {
     box-sizing: border-box;
 }
 
-.collapsible-menu {
+.collapsible-menu {                             /* guide menu */
     position: fixed;
     top: 0%;
     right: 0%;
@@ -319,7 +320,7 @@ label {
     z-index: 1000;
 }
 
-.menu-toggle {
+.menu-toggle {                                  /* sub-menu 1 */
     background-color: #4e5779;
     color: #fff;
     padding: 10px;
@@ -331,26 +332,21 @@ label {
     margin-bottom: 10px;
 }
 
-.menu-content {
+.menu-content {                                 /* sub menu 2 */
     display: none;
     overflow-y: auto;
     padding:10px;
 }
 
-.menu-content::webkit-scrollbar-thumb:hover {
+.menu-content::webkit-scrollbar-thumb:hover {   /* makes the button turn gray when hovered */
     background-color: #555;
 }
 
-.menu-content::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 4px;
-}
-
-.menu-section {
+.menu-section {                                 /* bottom margin for menu */
     margin-bottom: 10px;
 }
 
-.section-toggle {
+.section-toggle {                               /* text for the section button */
     background-color: #4e5779;
     padding: 8px;
     width: 100%;
@@ -361,7 +357,7 @@ label {
     border-radius: 5px;
 }
 
-.section-content {
+.section-content {                              /* text for sub menu button */
     display: none;
     padding: 5px;
     background-color: #4e5779;
@@ -371,4 +367,38 @@ label {
     max-height: 500px;
     box-sizing: border-box;
     overflow-y: auto;
+}
+
+/* last fm stuff here */
+
+#now-playing {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'pixel', sans-serif;
+    background-color: #4e5779;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    max-width: 40%;
+    margin: 10px auto;
+    z-index: 1000;
+    border: solid 2px #0d2041;
+    font-size: 0.6rem;
+}
+
+#now-playing:hover {
+    background-color: #555;
+}
+
+#now-playing img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
 }
