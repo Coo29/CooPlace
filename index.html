@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coo Place</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- main page start -->
+
+    <!-- title start -->
+        <center>
+            <h1 class="bouncy-text">
+                    Coo Place
+            </h1>
+        </center>
+    <!-- title end -->
+
+    <center>
+        <h2 class="intro">
+            <font color="#fff">
+                Hello!
+            </font>
+        </h2>
+    </center>
+
+    <h3 class="intro">
+        <font color="#fff">
+            My name is Isa Hughes. I'm an artist/programmer.
+        </font>
+    </h3>
+    <p></p>
+    <h3 class="intro">
+        <font color="#fff">
+            I draw in Krita, and program in lua, html, and java.
+        </font>
+    </h3>
+
+    <!-- line breaks start -->
+     <br>
+     <br>
+     <!-- line breaks end -->
+
+    <!-- containers start -->
+
+    <center><h2><font color="#fff">some junk I've worked on:</font></h2></center>
+
+    <a href="https://github.com/Coo29/YippieMod?tab=readme-ov-file" id="container-image">
+        <div class="text">
+            <h2 class="bouncy-text">Yippie Mod</h2>
+            <p>A Balatro mod adding new content based on in-jokes among friends.</p>
+        </div>
+        <div class="image" style="background-image: url('resources/images/yippie.png');"></div>
+    </a>
+
+    <a href="https://coo29.github.io/ankh/" id="container-image">
+        <div class="text">
+            <h2 class="bouncy-text">ANKH</h2>
+            <p>A Balatro modding tool for easily creating custom content.</p>
+        </div>
+        <div class="image" style="background-image: url('resources/images/ANKH.png');"></div>
+    </a>
+
+    <a href="https://coo29.github.io/ankh/" id="container-image">
+        <div class="text">
+            <h2 class="bouncy-text">Art Dump</h2>
+            <p>A repository with samples of some of my art.</p>
+        </div>
+        <div class="image" style="background-image: url('resources/images/sketch.png');"></div>
+    </a>
+
+    <!-- containers end -->
+
+    <!-- breaks start -->
+    <br>
+    <br>
+    <!-- breaks end -->
+
+    <!-- page bottom start -->
+     <h3 class="smol">
+        2025, Isa Hughes.
+     </h3>
+    <!-- page bottom end -->
+
+<!-- main page end -->
+
+</body>
+
+<!-- side menu junk start -->
+    <div id="collapsibleMenu" class="collapsible-menu">
+    <button id="menuToggle" class="menu-toggle">Guide</button>
+    <div id="menuContent" class="menu-content">
+    <div class="menu-selection">
+
+                <!-- about page end -->
+                <button class="section-toggle"><center>About</center></button>
+                    <div class="section-content">
+                    
+                            <h2><font color="#fff" class="bouncy-text">Credits:</font></h2>
+
+                            <a href="https://github.com/Coo29"><p><font color="#fff">
+                                    Programming by <font color="#c7b24a"><u>Coo29</u></font>.</font>
+                                </p>
+                            </a>
+
+                        <a href="https://managore.itch.io/m6x11">
+                            <p>
+                                <font color="#fff">
+                                    m6x11 font by <font color="#c7b24a"><u>Daniel Linssen</u></font>.
+                                </font>
+                            </p>
+                        </a>
+
+                        <a href="https://godotshaders.com/shader/balatro-paint-mix/">
+                            <p>
+                                <font color="#fff">
+                                    Background is a modified shader shared by <font color="c7b24a"><u>NoobyTube</u></font>.
+                                </font>
+                            </p>
+                        </a>
+
+                    </div>
+                </div>
+                <!-- about page end -->
+
+    </div>  
+    </div>
+<!-- side menu junk end -->
+
+<!-- shader load start -->
+    <div id="bg-canvas"></div>
+<!-- shader load end -->
+
+<!-- java loading start -->
+    <script src="resources/javascript/main.js"></script>
+    <script src="resources/javascript/sidebar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="resources/javascript/shader.js"></script>
+<!-- java loading end -->
+
+</html>
+
+<!-- 
+
+template junk goes here:
+
+menu button template:
+
+                <button class="section-toggle"><center>Sample</center></button>
+                    <div class="section-content">
+                        <p class="bouncy-text">
+                            Example Text
+                        </p>
+                    </div>
+
+container templates:
+
+    container with no image:
+        <a href="https://example.com" id="container" target="_blank">
+            <h2>
+                Preview Shows Here
+            </h2>
+        </a>
+
+    container with image:
+        <a href="https://example.com" id="container-image">
+            <div class="text">
+                <h2 class="bouncy-text">
+                    Title
+                </h2>
+                <p>
+                    Text stuff goes here I guess
+                </p>
+            </div>
+            <div class="image" style="background-image: url('resources/images/bg.png');"></div>
+        </a>
+
+-->
