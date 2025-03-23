@@ -1,2 +1,2 @@
 # CooPlace
-Main site for me
+Main site for junk
