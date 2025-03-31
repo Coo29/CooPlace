@@ -17,9 +17,9 @@
             u_spin_rotation: { value: 1.0 },
             u_spin_speed: { value: 1.0 },
             u_offset: { value: new THREE.Vector2(0.0, 0.0) },
-            u_colour_1: { value: new THREE.Vector4(0.05, 0.13, 0.25, 1.0) }, // Color 1
-            u_colour_2: { value: new THREE.Vector4(0.78, 0.70, 0.29, 1.0) }, // Color 2
-            u_colour_3: { value: new THREE.Vector4(0.31, 0.34, 0.47, 1.0) }, // Color 3
+            u_colour_1: { value: new THREE.Vector4(0, 0, 0, 1.0) }, // Color 1
+            u_colour_2: { value: new THREE.Vector4(0.1, 0.1, 0.1, 1.0) }, // Color 2
+            u_colour_3: { value: new THREE.Vector4(0.5, 0.5, 0.5, 1.0) }, // Color 3
             u_contrast: { value: 2.0 },
             u_spin_amount: { value: 0.36 },
             u_pixel_filter: { value: 700.0 },

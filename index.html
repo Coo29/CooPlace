@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta property="og:title" content="CooPlace">
+    <meta property="og:description" content="Where I post my stuff n all">
+    <meta property="og:image" content="images/preview.png">
+    <meta property="og:url" content="https://coo29.github.io/CooPlace/">
+    <meta property="og:type" content="website">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coo Place</title>
@@ -10,43 +15,39 @@
 
 <!-- main page start -->
 
-    <!-- page break start -->
-     <br>
-     <br>
-    <!-- page break end -->
-
     <!-- title start -->
-        <center>
+        <div id="header" class="fade">
             <h1 class="bouncy-text">
                     Coo Place
             </h1>
-        </center>
+        </div>
     <!-- title end -->
 
-    <center>
-        <h2 class="intro">
-            <font color="#fff">
-                Hello!
-            </font>
-        </h2>
-    </center>
+    <!-- page break start -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+   <!-- page break end -->
+
+    <h2 class="intro">
+        Hello!
+    </h2>
 
     <h3 class="intro">
-        <font color="#fff">
-            My name is Isa Hughes. I'm an artist/programmer.
-        </font>
+            My name is Isa Hughes. I'm an artist and web developer.
     </h3>
-    <p></p>
-    <h3 class="intro">
-        <font color="#fff">
-            I draw in Krita, and program in lua, html, and java.
-        </font>
-    </h3>
+    <br>
+    <h4 class="intro">
+            I draw in Krita, and program in lua, html, css, and java.
+    </h4>
+    <h5 class="intro">
+        I also have some experience in Blender and Unity.
+    </h5>
 
-    <!-- line breaks start -->
-     <br>
-     <br>
-     <!-- line breaks end -->
+    <br>
 
     <!-- containers start -->
 
@@ -54,7 +55,8 @@
 
     <a href="https://github.com/Coo29/YippieMod?tab=readme-ov-file" id="container-image">
         <div class="text">
-            <h2 class="bouncy-text">Yippie Mod</h2>
+            <h2 class="bouncy-text">Yippie</h2>
+            <h2 class="bouncy-text">Mod</h2>
             <p>A Balatro mod adding new content based on in-jokes among friends.</p>
         </div>
         <div class="image" style="background-image: url('resources/images/yippie.png');"></div>
@@ -70,7 +72,8 @@
 
     <a href="https://coo29.github.io/Runes/" id="container-image">
         <div class="text">
-            <h2 class="bouncy-text">Elder Furthark</h2>
+            <h2 class="bouncy-text">Elder</h2>
+            <h2 class="bouncy-text">Furthark</h2>
             <p>A small project that gives random runes, as well as their meaning.</p>
         </div>
         <div class="image" style="background-image: url('resources/images/Furthark.png');"></div>
@@ -78,7 +81,8 @@
 
     <a href="https://coo29.github.io/ArtDump/" id="container-image">
         <div class="text">
-            <h2 class="bouncy-text">Art Dump</h2>
+            <h2 class="bouncy-text">Art</h2>
+            <h2 class="bouncy-text">Dump</h2>
             <p>A repository with samples of some of my art.</p>
         </div>
         <div class="image" style="background-image: url('resources/images/sketch.png');"></div>
@@ -102,8 +106,9 @@
 </body>
 
 <!-- side menu junk start -->
+    <div class="low-res">
     <div id="collapsibleMenu" class="collapsible-menu">
-    <button id="menuToggle" class="menu-toggle">Guide</button>
+    <button id="menuToggle" class="menu-toggle">Info</button>
     <div id="menuContent" class="menu-content">
     <div class="menu-selection">
 
@@ -146,16 +151,30 @@
                 </div>
                 <!-- about page end -->
 
+                <!-- contact page start -->
+                <button class="section-toggle"><center>Contact</center></button>
+                <div class="section-content">
+                    <a href="mailto:isahughes2005@gmail.com">
+                        <p><font color="#c7b24a"><u>Email</u></font></p>
+                    </a>
+                    <a href="https://discordapp.com/channels/@me/coo29/">
+                        <p><font color="#c7b24a"><u>coo29</u></font> on Discord.</p>
+                    </a>
+                </div>
+                <!-- contact page end -->
     </div>  
+    </div>
     </div>
 <!-- side menu junk end -->
 
 <!-- last.fm embed start -->
-    <a href="https://last.fm/user/Coo29">
-        <div id="now-playing">
-            <p class="bouncy-text">loading</p>
-        </div>
-    </a>
+    <div class="fade">
+        <a href="https://last.fm/user/Coo29">
+            <div id="now-playing" class="low-res">
+                <p>loading</p>
+            </div>
+        </a>
+    </div>
 <!-- last.fm embed end -->
 
 <!-- shader load start -->
