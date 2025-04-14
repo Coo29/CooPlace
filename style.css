@@ -52,7 +52,7 @@ html {
 }
 
 body {
-    background-color: #0d2041;
+    background-color: #485e71;
     background-image:url('resources/images/bg.png');
     background-size: 100% auto;
     color: #fff;
@@ -67,7 +67,7 @@ body {
 
 /* Style buttons */
 button {
-    background-color: #4e5779;
+    background-color: #485e71;
     color: #e2ebf9;
     border: 1px solid #0d2041;
     padding: 8px 12px;
@@ -138,7 +138,7 @@ label {
     min-width: 10%;
     max-width: 70%;
     padding: 2%;
-    background-color: #4e5779;
+    background-color: #485e71;
     border: 2px solid #0d2041;
     border-radius: 15px;
     text-align: center;
@@ -162,7 +162,7 @@ label {
     min-width: 10%;
     max-width: 70%;
     padding: 2%;
-    background-color: #2b2b2b;
+    background-color: #485e71;
     border: 2px solid #fff;
     border-radius: 15px;
     text-align: center;
@@ -176,7 +176,7 @@ label {
 #container-image:hover {
     transform: translateY(-1%);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
-    background-color: #414141;
+    background-color: #496d7f;
 }
 
 #container-image .text {
@@ -227,7 +227,7 @@ label {
     display: inline-block;
     width: 95%;
     background-color: #eee;
-    color: #2b2b2b;
+    color: #485e71;
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;
@@ -300,7 +300,7 @@ label {
     top: 10px;
     padding: 10px;
     right: 10px;
-    background-color: "#2b2b2b";
+    background-color: "#485e71";
     border-radius: 5px;
     max-width: 30vw;
     min-width: 10vw;
@@ -309,7 +309,7 @@ label {
 }
 
 .menu-toggle {
-    background-color: #2b2b2b;
+    background-color: #485e71;
     color: #fff;
     width: 100%;
     height: 100%;
@@ -333,12 +333,12 @@ label {
 }
 
 .menu-content::-webkit-scrollbar-thumb {
-    background-color: #888;
+    background-color: #496d7f;
     border-radius: 4px;
 }
 
 .section-toggle {
-    background-color: #2b2b2b;
+    background-color: #485e71;
     padding: 8px;
     width: 98%;
     margin-left: 1%;
@@ -355,7 +355,7 @@ label {
 .section-content {
     display: none;
     padding: 5px;
-    background-color: #2b2b2b;
+    background-color: #485e71;
     border-radius: 5px;
     margin-top: 5px;
     margin-left: 2.5%;
@@ -389,7 +389,7 @@ label {
     display: flex;
     align-items: center;
     font-family: 'pixel', sans-serif;
-    background-color: #2b2b2b;
+    background-color: #485e71;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -407,7 +407,7 @@ label {
 }
 
 #now-playing:hover {
-    background-color: #555;
+    background-color: #496d7f;
 }
 
 #now-playing img {

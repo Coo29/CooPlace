@@ -18,8 +18,8 @@
             u_spin_speed: { value: 1.0 },
             u_offset: { value: new THREE.Vector2(0.0, 0.0) },
             u_colour_1: { value: new THREE.Vector4(0, 0, 0, 1.0) }, // Color 1
-            u_colour_2: { value: new THREE.Vector4(0.1, 0.1, 0.1, 1.0) }, // Color 2
-            u_colour_3: { value: new THREE.Vector4(0.5, 0.5, 0.5, 1.0) }, // Color 3
+            u_colour_2: { value: new THREE.Vector4(0.28235294, 0.36862745, 0.44313725, 1.0) }, // Color 2
+            u_colour_3: { value: new THREE.Vector4(0.28627450, 0.42745098, 0.49803921, 1.0) }, // Color 3
             u_contrast: { value: 2.0 },
             u_spin_amount: { value: 0.36 },
             u_pixel_filter: { value: 700.0 },
