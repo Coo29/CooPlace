@@ -21,8 +21,8 @@ async function fetchNowPlaying() {
         const albumArt = nowPlayingTrack.image[2]["#text"] || "https://via.placeholder.com/50";
 
         document.getElementById("now-playing").innerHTML = isNowPlaying ? `
-            <img src="${albumArt}" alt="Album Art">
-            <p class="bouncy-text">${title} <strong>${artist}</strong></p>
+
+            <p class="bouncy-text">${title} By <strong>${artist}</strong></p>
         ` : `<p>No track currently playing.</p>`;
 
     } catch (error) {
